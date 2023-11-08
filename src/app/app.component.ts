@@ -47,7 +47,10 @@ export class AppComponent implements OnInit{
 
     } else {
 
-      console.log('ERROR');
+      this.titleCharacter = `${this.sinDatos}`;
+      this.descriptionCharacter = `${this.sinDatos}`;
+
+      $('#descriptionModal').modal('show');
 
     }
 
