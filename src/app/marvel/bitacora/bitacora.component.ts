@@ -26,18 +26,6 @@ export class BitacoraComponent implements OnInit {
 
       this.registrosBitacora = response;
 
-    } else {
-
-      Swal.fire({
-        title: '<h5>Sin datos</h5>',
-        icon: 'info',
-        confirmButtonText: 'Aceptar',
-        customClass: {
-          confirmButton: 'btn btn-sm btn-outline-primary',
-        },
-        buttonsStyling: false
-      });
-
     }
 
   }
