@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DataMarvelService } from './data-marvel.service';
+import { AuthenticationService } from './authentication.service';
 
-describe('DataMarvelService', () => {
-  let service: DataMarvelService;
+describe('AuthServiceService', () => {
+  let service: AuthenticationService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(DataMarvelService);
+    service = TestBed.inject(AuthenticationService);
   });
 
   it('should be created', () => {

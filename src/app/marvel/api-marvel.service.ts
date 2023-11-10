@@ -5,9 +5,9 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class DataMarvelService {
+export class ApiMarvelService {
 
-  private apiUrl = 'http://localhost:9001/consumer/api/marvel/getCharacters';
+  private apiUrl: string = 'http://localhost:9001/consumer/api/marvel/getCharacters';
 
   constructor(private http: HttpClient) { }
 
